@@ -8,7 +8,7 @@ const Home = () => {
 
                 <div className='relative flex flex-col gap-3 w-[90%] bottom-5'>
 
-                    <div className='text-2xl font-semibold'>
+                    <div className='text-2xl font-bold'>
                         Welcome to Popx
                     </div>
 
