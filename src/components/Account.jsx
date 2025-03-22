@@ -7,8 +7,9 @@ const Account = () => {
         <div className='relative w-[375px] h-[812px] max-sm:w-screen max-sm:h-screen border-2 border-[#CBCBCB] bg-[#F7F8F9]'>
             <div className='flex items-center p-3 bg-white h-[60px] font-semibold'>Account Settings</div>
             <div className='flex gap-3  p-4'>
-                <div class="relative">
 
+               {/*avatar image */}
+                <div class="relative">
                     <img
                         class="w-16 h-16 rounded-full"
                         src={Avatar}
@@ -22,6 +23,7 @@ const Account = () => {
                     </span>
                 </div>
 
+             {/*name */}
                 <div className='text-sm'>
                     <div className='font-semibold'>Marry Doe</div>
                     <div>Marry Doe</div>
@@ -29,6 +31,7 @@ const Account = () => {
 
             </div>
 
+         {/*info */}
             <div
                 className='text-[13px] p-4'>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam corrupti quaerat similique modi veniam ut, dicta labore eaque suscipit officiis?
