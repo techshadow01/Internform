@@ -54,7 +54,7 @@ const Sign = () => {
         <>
             <form
                 onSubmit={handlesubmit}
-                className='flex flex-col justify-between p-4 pt-[40px] w-[375px] h-[812px] max-sm:w-screen max-sm:h-screen border-2 border-slate-200 '>
+                className='flex flex-col justify-between p-4 pt-[40px] w-[375px] h-[812px] max-sm:w-screen max-sm:h-screen border-2 border-slate-200 bg-[#F7F8F9]'>
 
                 <div className='flex flex-col gap-[29px]'>
                     <div className='text-2xl font-bold'>
@@ -71,12 +71,12 @@ const Sign = () => {
                                 <input
                                     id={item.label}
                                     type={item.label}
-                                    class="block px-2.5 py-[9px]  w-full text-[13px] text-gray-900 bg-transparent rounded-lg border-[1.5px] border-gray-300 appearance-none focus:outline-none "
+                                    class="block px-2.5 py-[9px]  w-full text-[13px] text-gray-900 bg-transparent rounded-lg border-[1.5px] border-[#CBCBCB] appearance-none focus:outline-none "
                                     onChange={handleInputChange}
                                     placeholder={item.place}
                                     {...(item.name !== 'Company Name' ? { required: true } : {})}
                                 />
-                                <label className='absolute flex bg-white text-[11px] -top-2 text-[#8E59FE] left-2 w-[85px] pl-1 font-semibold'>
+                                <label className='absolute flex bg-[#F7F8F9] text-[11px] -top-2 text-[#8E59FE] left-2 w-[85px] pl-1 font-semibold'>
                                     <div>{item.name}</div>
                                     {item.name != "Company Name" && <div className='text-red-500'>*</div>}
                                 </label>
