@@ -1,5 +1,5 @@
 import React from 'react'
-import Avatar from '../assets/photo1.avif'
+import Avatar from '../assets/photo1.png'
 import Camera from '../assets/camera.svg'
 
 const Account = () => {
