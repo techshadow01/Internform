@@ -4,7 +4,7 @@ import Camera from '../assets/camera.svg'
 
 const Account = () => {
     return (
-        <div className='relative w-[375px] h-[812px] max-sm:w-screen max-sm:h-screen border-2 border-slate-200 bg-[#F7F8F9]'>
+        <div className='relative w-[375px] h-[812px] max-sm:w-screen max-sm:h-screen border-2 border-[#CBCBCB] bg-[#F7F8F9]'>
             <div className='flex items-center p-3 bg-white h-[60px] font-semibold'>Account Settings</div>
             <div className='flex gap-3  p-4'>
                 <div class="relative">

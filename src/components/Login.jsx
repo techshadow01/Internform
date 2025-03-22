@@ -35,7 +35,7 @@ const Login = () => {
                     e.preventDefault();
                     navigate('/account');
                 }}
-                className='flex flex-col gap-4 p-4 pt-[40px] w-[375px] h-[812px] max-sm:w-screen max-sm:h-screen border-2 border-slate-200 bg-[#F7F8F9]'>
+                className='flex flex-col gap-4 p-4 pt-[40px] w-[375px] h-[812px] max-sm:w-screen max-sm:h-screen border-2 border-[#CBCBCB] bg-[#F7F8F9]'>
 
                 <div className='flex flex-col gap-[22px]'>
                     <div className='text-2xl font-bold'>
@@ -56,14 +56,13 @@ const Login = () => {
                                 <input
                                     id={item.label}
                                     type={item.label}
-                                    class="block px-2.5 py-[9px] w-full text-[13px] text-gray-900 bg-transparent rounded-lg border-[1.5px] border-[#CBCBCB] appearance-none focus:outline-none "
+                                    class="block px-2.5 py-[9px]  w-full  text-gray-900 bg-transparent rounded-lg border-[1.5px] border-[#CBCBCB] appearance-none focus:outline-none "
                                     onChange={handleInputChange}
                                     placeholder={item.place}
                                     required
                                 />
 
-                                <label
-                                    className='absolute bg-[#F7F8F9] text-[12px] -top-2 text-[#8E59FE] left-2 w-[95px] px-2 font-semibold'>
+                                <label className='absolute flex bg-[#F7F8F9] text-[13px] -top-2 text-[#8E59FE] left-2 w-[100px] pl-1 font-semibold'>
                                     <div>{item.name}</div>
                                 </label>
                             </div>
