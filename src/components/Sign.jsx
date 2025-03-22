@@ -57,7 +57,7 @@ const Sign = () => {
                 className='flex flex-col justify-between p-4 pt-[40px] w-[375px] h-[812px] max-sm:w-screen max-sm:h-screen border-2 border-slate-200 '>
 
                 <div className='flex flex-col gap-[29px]'>
-                    <div className='text-2xl font-semibold'>
+                    <div className='text-2xl font-bold'>
                         <div> Create your</div>
                         <div>  Popx Account</div>
                     </div>
