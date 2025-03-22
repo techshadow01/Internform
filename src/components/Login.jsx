@@ -35,7 +35,7 @@ const Login = () => {
                     e.preventDefault();
                     navigate('/account');
                 }}
-                className='flex flex-col gap-4 p-4 w-[375px] h-[812px] max-sm:w-screen max-sm:h-screen border-2 border-slate-200 '>
+                className='flex flex-col gap-4 p-4 pt-[40px] w-[375px] h-[812px] max-sm:w-screen max-sm:h-screen border-2 border-slate-200 '>
 
                 <div className='flex flex-col gap-4'>
                     <div className='text-2xl font-semibold'>
