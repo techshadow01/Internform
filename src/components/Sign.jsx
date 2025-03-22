@@ -95,7 +95,7 @@ const Sign = () => {
                             <div class="flex items-center mb-4">
 
                                 <input id="default-radio-1" type="radio" value="yes" name="default-radio"
-                                    class="w-4 h-4 accent-[#6C25FF] cursor-pointer" checked />
+                                    class="w-5 h-5 accent-[#6C25FF] cursor-pointer" checked />
                                 <label
                                     for="default-radio-1"
                                     class="ms-2 text-sm font-medium text-black">
@@ -110,7 +110,7 @@ const Sign = () => {
                                     type="radio"
                                     value="no"
                                     name="default-radio"
-                                    class="w-4 h-4 accent-[#6C25FF] cursor-pointer"
+                                    class="w-5 h-5 accent-[#6C25FF] cursor-pointer"
                                     checked
                                 />
 
