@@ -25,7 +25,7 @@ const Account = () => {
 
              {/*name */}
                 <div className='text-sm'>
-                    <div className='font-semibold'>Marry Doe</div>
+                    <div className='font-bold'>Marry Doe</div>
                     <div>Marry@gmail.com</div>
                 </div>
 
